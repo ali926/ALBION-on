@@ -1,0 +1,478 @@
+"use client";
+import { useState, useEffect } from 'react';
+import Card from '../../components/Card';
+import { calculateRefiningOutput } from '../../lib/calculators';
+import { fetchItemPrices, clearPriceCache } from '../../lib/market';
+import { City } from '../../lib/types';
+
+const RESOURCE_TYPES = [
+    { name: 'Ore', raw: 'ORE', refined: 'METALBAR', icon: '⛏️' },
+    { name: 'Fiber', raw: 'FIBER', refined: 'CLOTH', icon: '🌿' },
+    { name: 'Hide', raw: 'HIDE', refined: 'LEATHER', icon: '🛡️' },
+    { name: 'Wood', raw: 'WOOD', refined: 'PLANKS', icon: '🪓' },
+    { name: 'Rock', raw: 'ROCK', refined: 'STONEBLOCK', icon: '🧱' },
+];
+
+const CITIES = Object.values(City).filter(c => c !== City.BLACK_MARKET);
+
+export default function RefiningPage() {
+    // Global Settings
+    const [buyCity, setBuyCity] = useState<string>(City.MARTLOCK);
+    const [sellCity, setSellCity] = useState<string>(City.THETFORD);
+    const [usePremium, setUsePremium] = useState(true);
+    const [includeTaxes, setIncludeTaxes] = useState(true);
+
+    // Recipe Settings
+    const [resourceType, setResourceType] = useState(RESOURCE_TYPES[2]); // Default to Hide
+    const [tier, setTier] = useState<number>(4);
+    const [enchantment, setEnchantment] = useState<number>(0);
+    const [amount, setAmount] = useState<number>(1);
+    const [usageFee, setUsageFee] = useState<number>(1000);
+    const [returnRate, setReturnRate] = useState<number>(24.8);
+
+    // Manual Price Override
+    const [manualMode, setManualMode] = useState(false);
+    const [manualRawPrice, setManualRawPrice] = useState<number>(0);
+    const [manualRefinedPrice, setManualRefinedPrice] = useState<number>(0);
+    const [manualLowerRefinedPrice, setManualLowerRefinedPrice] = useState<number>(0);
+
+    // Analysis State
+    const [isAnalyzing, setIsAnalyzing] = useState(false);
+    const [refreshTrigger, setRefreshTrigger] = useState(0);
+    const [marketData, setMarketData] = useState<{
+        rawPrices: any[],
+        refinedPrices: any[],
+        lowerRefinedPrices: any[]
+    } | null>(null);
+
+    // Construct Item IDs
+    const rawItemId = `T${tier}_${resourceType.raw}${enchantment > 0 ? `_LEVEL${enchantment}@${enchantment}` : ''}`;
+    const refinedItemId = `T${tier}_${resourceType.refined}${enchantment > 0 ? `_LEVEL${enchantment}@${enchantment}` : ''}`;
+    const lowerRefinedItemId = tier > 2 ? `T${tier - 1}_${resourceType.refined}` : null;
+
+    // Fetch prices when dependencies change
+    useEffect(() => {
+        const fetchData = async () => {
+            setIsAnalyzing(true);
+            try {
+                // Fetch for ALL cities to allow comparison
+                const [rawPrices, refinedPrices, lowerRefinedPrices] = await Promise.all([
+                    fetchItemPrices(rawItemId, CITIES),
+                    fetchItemPrices(refinedItemId, CITIES),
+                    lowerRefinedItemId ? fetchItemPrices(lowerRefinedItemId, CITIES) : Promise.resolve([])
+                ]);
+
+                setMarketData({
+                    rawPrices,
+                    refinedPrices,
+                    lowerRefinedPrices
+                });
+            } catch (error) {
+                console.error("Failed to fetch prices", error);
+            } finally {
+                setIsAnalyzing(false);
+            }
+        };
+
+        const timeoutId = setTimeout(fetchData, 500); // Debounce
+        return () => clearTimeout(timeoutId);
+    }, [rawItemId, refinedItemId, lowerRefinedItemId, refreshTrigger]);
+
+    // Handle manual refresh
+    const handleRefresh = () => {
+        clearPriceCache();
+        setRefreshTrigger(prev => prev + 1);
+    };
+
+    // Get specific prices for selected cities (use bestPrice instead of sellPriceMin)
+    const apiRawPrice = marketData?.rawPrices.find(p => p.city === buyCity)?.bestPrice || 0;
+    const apiRefinedPrice = marketData?.refinedPrices.find(p => p.city === sellCity)?.bestPrice || 0;
+    const apiLowerRefinedPrice = marketData?.lowerRefinedPrices.find(p => p.city === buyCity)?.bestPrice || 0;
+
+    // Use manual prices if manual mode is enabled, otherwise use API prices
+    const currentRawPrice = manualMode ? manualRawPrice : apiRawPrice;
+    const currentRefinedPrice = manualMode ? manualRefinedPrice : apiRefinedPrice;
+    const currentLowerRefinedPrice = manualMode ? manualLowerRefinedPrice : apiLowerRefinedPrice;
+
+    // Calculate Output
+    const calculation = calculateRefiningOutput({
+        resourceItemId: rawItemId,
+        tier,
+        enchantment,
+        amount,
+        city: sellCity,
+        usageFee,
+        returnRate,
+        marketPrices: marketData ? {
+            rawItem: currentRawPrice,
+            refinedItem: currentLowerRefinedPrice,
+            outputItem: currentRefinedPrice
+        } : undefined
+    });
+
+            <div className="bg-gray-900/80 backdrop-blur rounded-xl p-6 mb-8 border border-gray-800">
+                <div className="flex justify-between items-center mb-6 border-b border-gray-800 pb-4">
+                    <h2 className="text-2xl font-bold text-white">Refining Calculator</h2>
+                    <button
+                        onClick={handleRefresh}
+                        disabled={isAnalyzing}
+                        className={`text-sm bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg flex items-center space-x-2 transition-colors shadow-lg ${isAnalyzing ? 'opacity-50 cursor-not-allowed' : ''}`}
+                    >
+                        <span className={isAnalyzing ? 'animate-spin' : ''}>🔄</span>
+                        <span>{isAnalyzing ? 'Updating Prices...' : 'Refresh All Prices'}</span>
+                    </button>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label className="block text-sm font-bold text-gray-300 mb-2">Buy materials from</label>
+                        <select
+                            value={buyCity}
+                            onChange={(e) => setBuyCity(e.target.value)}
+                            className="w-full bg-gray-800 border border-gray-700 text-white rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+                        >
+                            {CITIES.map(c => <option key={c} value={c}>{c}</option>)}
+                        </select>
+                    </div>
+                    <div>
+                        <label className="block text-sm font-bold text-gray-300 mb-2">Sell refined item to</label>
+                        <select
+                            value={sellCity}
+                            onChange={(e) => setSellCity(e.target.value)}
+                            className="w-full bg-gray-800 border border-gray-700 text-white rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+                        >
+                            {CITIES.map(c => <option key={c} value={c}>{c}</option>)}
+                        </select>
+                    </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-6 pt-6 border-t border-gray-800">
+                    <div className="flex items-center justify-between bg-gray-800/50 p-3 rounded-lg">
+                        <span className="text-sm font-medium text-gray-300">Premium</span>
+                        <div
+                            className={`w-12 h-6 rounded-full p-1 cursor-pointer transition-colors ${usePremium ? 'bg-blue-600' : 'bg-gray-600'}`}
+                            onClick={() => setUsePremium(!usePremium)}
+                        >
+                            <div className={`w-4 h-4 bg-white rounded-full shadow-md transform transition-transform ${usePremium ? 'translate-x-6' : ''}`} />
+                        </div>
+                    </div>
+                    <div className="flex items-center justify-between bg-gray-800/50 p-3 rounded-lg">
+                        <span className="text-sm font-medium text-gray-300">Include Taxes</span>
+                        <div
+                            className={`w-12 h-6 rounded-full p-1 cursor-pointer transition-colors ${includeTaxes ? 'bg-blue-600' : 'bg-gray-600'}`}
+                            onClick={() => setIncludeTaxes(!includeTaxes)}
+                        >
+                            <div className={`w-4 h-4 bg-white rounded-full shadow-md transform transition-transform ${includeTaxes ? 'translate-x-6' : ''}`} />
+                        </div>
+                    </div>
+                    <div className="md:col-span-2">
+                        <label className="block text-xs font-bold text-gray-400 mb-1 uppercase">Return Rate (%)</label>
+                        <input
+                            type="number"
+                            value={returnRate}
+                            onChange={(e) => setReturnRate(Number(e.target.value))}
+                            className="w-full bg-gray-800 border border-gray-700 text-white rounded-lg px-3 py-2 text-sm focus:border-blue-500 outline-none"
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+                {/* Left Column: Selected Recipe Card */}
+                <div className="lg:col-span-2 space-y-6">
+                    <h3 className="text-xl font-bold text-white">Selected Recipes</h3>
+
+                    <div className="bg-gray-900/80 backdrop-blur rounded-xl border border-gray-800 p-6 relative overflow-hidden group hover:border-gray-700 transition-colors">
+                        <div className="absolute left-0 top-0 bottom-0 w-1 bg-red-500"></div>
+
+                        <div className="flex flex-col md:flex-row gap-6">
+                            {/* Icon & Basic Info */}
+                            <div className="flex-shrink-0">
+                                <div className="w-20 h-20 bg-gray-800 rounded-lg flex items-center justify-center text-4xl border border-gray-700 shadow-inner">
+                                    {resourceType.icon}
+                                </div>
+                                <div className="mt-2 text-center">
+                                    <span className="text-xs font-bold bg-gray-800 px-2 py-1 rounded text-gray-400">T{tier}.{enchantment}</span>
+                                </div>
+                            </div>
+
+                            {/* Controls & Stats */}
+                            <div className="flex-grow grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div className="space-y-4">
+                                    <div>
+                                        <h4 className="text-lg font-bold text-white">{resourceType.refined}</h4>
+                                        <p className="text-xs text-gray-500">0.8 kg</p>
+                                    </div>
+
+                                    <div>
+                                        <label className="text-xs text-gray-500 block mb-1">Refining Profit</label>
+                                        {marketData ? (
+                                            <div className={`text-xl font-bold ${profitColor}`}>
+                                                {finalNetProfit?.toLocaleString()} 🪙
+                                            </div>
+                                        ) : (
+                                            <div className="text-sm text-yellow-500 animate-pulse">Fetching prices...</div>
+                                        )}
+                                    </div>
+
+                                    <div>
+                                        <label className="text-xs text-gray-500 block mb-1">Sell Price ({sellCity})</label>
+                                        <div className="bg-gray-800 rounded px-3 py-2 text-sm text-gray-300 border border-gray-700">
+                                            {currentRefinedPrice.toLocaleString()} 🪙
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="space-y-4">
+                                    <div className="flex items-center space-x-2">
+                                        <div className="flex-grow">
+                                            <label className="text-xs text-gray-500 block mb-1 text-center">Quantity</label>
+                                            <div className="flex items-center justify-center bg-gray-800 rounded-lg border border-gray-700">
+                                                <button onClick={() => setAmount(Math.max(1, amount - 1))} className="px-3 py-1 text-gray-400 hover:text-white">-</button>
+                                                <input
+                                                    type="number"
+                                                    value={amount}
+                                                    onChange={(e) => setAmount(Number(e.target.value))}
+                                                    className="w-16 bg-transparent text-center text-white outline-none"
+                                                />
+                                                <button onClick={() => setAmount(amount + 1)} className="px-3 py-1 text-gray-400 hover:text-white">+</button>
+                                            </div>
+                                        </div>
+                                        <div className="flex-grow">
+                                            <label className="text-xs text-gray-500 block mb-1 text-center">Return Rate %</label>
+                                            <div className="bg-gray-800 rounded-lg border border-gray-700 px-3 py-1.5 text-center text-gray-300 text-sm">
+                                                {returnRate}%
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <label className="text-xs text-gray-500 block mb-1 text-center">Usage Fee</label>
+                                        <input
+                                            type="number"
+                                            value={usageFee}
+                                            onChange={(e) => setUsageFee(Number(e.target.value))}
+                                            className="w-full bg-gray-800 border border-gray-700 text-white rounded-lg px-3 py-2 text-center text-sm focus:border-blue-500 outline-none"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Material Requirements */}
+                        <div className="mt-6 pt-6 border-t border-gray-800">
+                            <h5 className="text-sm font-bold text-gray-400 mb-3">Required Materials</h5>
+                            <div className="space-y-3">
+                                {/* Raw Material */}
+                                <div className="flex items-center justify-between bg-gray-800/30 p-2 rounded">
+                                    <div className="flex items-center space-x-3">
+                                        <span className="text-xl">{resourceType.icon}</span>
+                                        <div>
+                                            <div className="text-sm font-medium text-gray-300">T{tier} {resourceType.raw}</div>
+                                            <div className="text-xs text-gray-500">Sell Price ({buyCity})</div>
+                                        </div>
+                                    </div>
+                                    <div className="text-right">
+                                        <div className="text-sm font-bold text-gray-300">{calculation.rawMaterialsNeeded} units</div>
+                                        <div className="text-xs text-gray-400">{currentRawPrice.toLocaleString()} 🪙</div>
+                                    </div>
+                                </div>
+
+                                {/* Refined Material */}
+                                {calculation.refinedMaterialNeeded > 0 && (
+                                    <div className="flex items-center justify-between bg-gray-800/30 p-2 rounded">
+                                        <div className="flex items-center space-x-3">
+                                            <span className="text-xl opacity-70">{resourceType.icon}</span>
+                                            <div>
+                                                <div className="text-sm font-medium text-gray-300">T{tier - 1} {resourceType.refined}</div>
+                                                <div className="text-xs text-gray-500">Sell Price ({buyCity})</div>
+                                            </div>
+                                        </div>
+                                        <div className="text-right">
+                                            <div className="text-sm font-bold text-gray-300">{calculation.refinedMaterialNeeded} units</div>
+                                            <div className="text-xs text-gray-400">{currentLowerRefinedPrice.toLocaleString()} 🪙</div>
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* NEW: Market Opportunities Card */}
+                    <div className="bg-gray-900/80 backdrop-blur rounded-xl border border-gray-800 p-6">
+                        <div className="flex justify-between items-center mb-4">
+                            <h3 className="text-lg font-bold text-white">Market Opportunities</h3>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                            {/* Best Buy */}
+                            <div>
+                                <h4 className="text-xs font-bold text-gray-500 uppercase mb-3 flex items-center">
+                                    <span className="mr-2">📉</span> Best Cities to Buy (Raw)
+                                </h4>
+                                <div className="space-y-2">
+                                    {sortedBuyCities.slice(0, 5).map((price, idx) => (
+                                        <div key={price.city} className={`flex justify-between items-center p-2 rounded ${idx === 0 ? 'bg-green-900/20 border border-green-800' : 'bg-gray-800/50'}`}>
+                                            <div className="flex items-center space-x-2">
+                                                <span className="text-xs font-mono text-gray-500">#{idx + 1}</span>
+                                                <span className={`text-sm font-medium ${price.city === buyCity ? 'text-blue-400' : 'text-gray-300'}`}>
+                                                    {price.city}
+                                                </span>
+                                            </div>
+                                            <span className="text-sm font-mono text-gray-200">{price.sellPriceMin.toLocaleString()} 🪙</span>
+                                        </div>
+                                    ))}
+                                    {sortedBuyCities.length === 0 && <div className="text-xs text-gray-500">No data available</div>}
+                                </div>
+                            </div>
+
+                            {/* Best Sell */}
+                            <div>
+                                <h4 className="text-xs font-bold text-gray-500 uppercase mb-3 flex items-center">
+                                    <span className="mr-2">📈</span> Best Cities to Sell (Refined)
+                                </h4>
+                                <div className="space-y-2">
+                                    {sortedSellCities.slice(0, 5).map((price, idx) => (
+                                        <div key={price.city} className={`flex justify-between items-center p-2 rounded ${idx === 0 ? 'bg-green-900/20 border border-green-800' : 'bg-gray-800/50'}`}>
+                                            <div className="flex items-center space-x-2">
+                                                <span className="text-xs font-mono text-gray-500">#{idx + 1}</span>
+                                                <span className={`text-sm font-medium ${price.city === sellCity ? 'text-blue-400' : 'text-gray-300'}`}>
+                                                    {price.city}
+                                                </span>
+                                            </div>
+                                            <span className="text-sm font-mono text-gray-200">{price.sellPriceMin.toLocaleString()} 🪙</span>
+                                        </div>
+                                    ))}
+                                    {sortedSellCities.length === 0 && <div className="text-xs text-gray-500">No data available</div>}
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                {/* Right Column: Summary */}
+                <div className="space-y-6">
+                    {/* Required Materials Summary */}
+                    <div className="bg-gray-900/80 backdrop-blur rounded-xl border border-gray-800 p-6">
+                        <div className="flex justify-between items-center mb-4">
+                            <h3 className="font-bold text-white">Required Materials</h3>
+                            <span className="text-xs text-gray-500">({calculation.refinedMaterialNeeded > 0 ? 2 : 1}/2)</span>
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="flex items-start space-x-3">
+                                <input type="checkbox" className="mt-1 rounded bg-gray-800 border-gray-600 text-blue-600" checked readOnly />
+                                <div className="flex-grow">
+                                    <div className="flex justify-between">
+                                        <span className="text-sm font-bold text-gray-300">T{tier}.{enchantment} {resourceType.raw}</span>
+                                        <span className="text-xs text-gray-500">Sell Price: {currentRawPrice.toLocaleString()}</span>
+                                    </div>
+                                    <div className="flex justify-between mt-1">
+                                        <span className="text-xs text-gray-500">{buyCity}</span>
+                                        <span className="text-sm text-white">{calculation.rawMaterialsNeeded} units</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {calculation.refinedMaterialNeeded > 0 && (
+                                <div className="flex items-start space-x-3">
+                                    <input type="checkbox" className="mt-1 rounded bg-gray-800 border-gray-600 text-blue-600" checked readOnly />
+                                    <div className="flex-grow">
+                                        <div className="flex justify-between">
+                                            <span className="text-sm font-bold text-gray-300">T{tier - 1}.{enchantment} {resourceType.refined}</span>
+                                            <span className="text-xs text-gray-500">Sell Price: {currentLowerRefinedPrice.toLocaleString()}</span>
+                                        </div>
+                                        <div className="flex justify-between mt-1">
+                                            <span className="text-xs text-gray-500">{buyCity}</span>
+                                            <span className="text-sm text-white">{calculation.refinedMaterialNeeded} units</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    {/* Resource Selector (Bottom) */ }
+    <div className="mt-8 bg-gray-900/80 backdrop-blur rounded-xl border border-gray-800 p-6">
+        <h3 className="text-lg font-bold text-white mb-4">Configuration</h3>
+
+        <div className="space-y-6">
+            {/* Resource Type */}
+            <div>
+                <label className="text-xs font-bold text-gray-500 uppercase mb-2 block">Resource Type</label>
+                <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                    {RESOURCE_TYPES.map(type => (
+                        <button
+                            key={type.name}
+                            onClick={() => setResourceType(type)}
+                            className={`p-3 rounded-lg border flex flex-col items-center space-y-2 transition-all ${resourceType.name === type.name
+                                ? 'bg-blue-600/20 border-blue-500 text-blue-400'
+                                : 'bg-gray-800 border-gray-700 text-gray-400 hover:border-gray-600'
+                                }`}
+                        >
+                            <span className="text-2xl">{type.icon}</span>
+                            <span className="font-medium">{type.name}</span>
+                        </button>
+                    ))}
+                </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {/* Tier Selector */}
+                <div>
+                    <label className="text-xs font-bold text-gray-500 uppercase mb-2 block">Tier</label>
+                    <div className="grid grid-cols-5 gap-2">
+                        {[4, 5, 6, 7, 8].map(t => (
+                            <button
+                                key={t}
+                                onClick={() => setTier(t)}
+                                className={`py-2 rounded-lg border text-sm font-bold transition-all ${tier === t
+                                    ? 'bg-blue-600 text-white border-blue-500'
+                                    : 'bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600'
+                                    }`}
+                            >
+                                T{t}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Enchantment Selector */}
+                <div>
+                    <label className="text-xs font-bold text-gray-500 uppercase mb-2 block">Enchantment</label>
+                    <div className="grid grid-cols-5 gap-2">
+                        {[0, 1, 2, 3, 4].map(e => (
+                            <button
+                                key={e}
+                                onClick={() => setEnchantment(e)}
+                                className={`py-2 rounded-lg border text-sm font-bold transition-all ${enchantment === e
+                                    ? 'bg-purple-600 text-white border-purple-500'
+                                    : 'bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600'
+                                    }`}
+                            >
+                                .{e}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {/* Footer */ }
+    <div className="mt-8 text-center text-xs text-gray-500 pb-8">
+        <p>
+            Data provided by the <a href="https://www.albion-online-data.com/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">Albion Online Data Project</a>.
+        </p>
+        <p className="mt-1">
+            To update prices, run the <a href="https://www.albion-online-data.com/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">Albion Data Client</a> while you play.
+        </p>
+    </div>
+        </div >
+    );
+}

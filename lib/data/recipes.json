@@ -1,0 +1,3077 @@
+[
+    {
+        "id": "RECIPE_T4_MAIN_SWORD",
+        "resultItemId": "T4_MAIN_SWORD",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_MAIN_SWORD",
+        "resultItemId": "T5_MAIN_SWORD",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_MAIN_SWORD",
+        "resultItemId": "T6_MAIN_SWORD",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_MAIN_SWORD",
+        "resultItemId": "T7_MAIN_SWORD",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_MAIN_SWORD",
+        "resultItemId": "T8_MAIN_SWORD",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_SWORD",
+        "resultItemId": "T4_2H_SWORD",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_SWORD",
+        "resultItemId": "T5_2H_SWORD",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_SWORD",
+        "resultItemId": "T6_2H_SWORD",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_SWORD",
+        "resultItemId": "T7_2H_SWORD",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_SWORD",
+        "resultItemId": "T8_2H_SWORD",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_DUALSWORD",
+        "resultItemId": "T4_2H_DUALSWORD",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_DUALSWORD",
+        "resultItemId": "T5_2H_DUALSWORD",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_DUALSWORD",
+        "resultItemId": "T6_2H_DUALSWORD",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_DUALSWORD",
+        "resultItemId": "T7_2H_DUALSWORD",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_DUALSWORD",
+        "resultItemId": "T8_2H_DUALSWORD",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_MAIN_AXE",
+        "resultItemId": "T4_MAIN_AXE",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_MAIN_AXE",
+        "resultItemId": "T5_MAIN_AXE",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_MAIN_AXE",
+        "resultItemId": "T6_MAIN_AXE",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_MAIN_AXE",
+        "resultItemId": "T7_MAIN_AXE",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_MAIN_AXE",
+        "resultItemId": "T8_MAIN_AXE",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_AXE",
+        "resultItemId": "T4_2H_AXE",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_AXE",
+        "resultItemId": "T5_2H_AXE",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_AXE",
+        "resultItemId": "T6_2H_AXE",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_AXE",
+        "resultItemId": "T7_2H_AXE",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_AXE",
+        "resultItemId": "T8_2H_AXE",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_HALBERD",
+        "resultItemId": "T4_2H_HALBERD",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_HALBERD",
+        "resultItemId": "T5_2H_HALBERD",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_HALBERD",
+        "resultItemId": "T6_2H_HALBERD",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_HALBERD",
+        "resultItemId": "T7_2H_HALBERD",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_HALBERD",
+        "resultItemId": "T8_2H_HALBERD",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_MAIN_MACE",
+        "resultItemId": "T4_MAIN_MACE",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_MAIN_MACE",
+        "resultItemId": "T5_MAIN_MACE",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_MAIN_MACE",
+        "resultItemId": "T6_MAIN_MACE",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_MAIN_MACE",
+        "resultItemId": "T7_MAIN_MACE",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_MAIN_MACE",
+        "resultItemId": "T8_MAIN_MACE",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_MACE",
+        "resultItemId": "T4_2H_MACE",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_MACE",
+        "resultItemId": "T5_2H_MACE",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_MACE",
+        "resultItemId": "T6_2H_MACE",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_MACE",
+        "resultItemId": "T7_2H_MACE",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_MACE",
+        "resultItemId": "T8_2H_MACE",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_HAMMER",
+        "resultItemId": "T4_2H_HAMMER",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_HAMMER",
+        "resultItemId": "T5_2H_HAMMER",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_HAMMER",
+        "resultItemId": "T6_2H_HAMMER",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_HAMMER",
+        "resultItemId": "T7_2H_HAMMER",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_HAMMER",
+        "resultItemId": "T8_2H_HAMMER",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 20
+            },
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_CROSSBOW",
+        "resultItemId": "T4_2H_CROSSBOW",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_CROSSBOW",
+        "resultItemId": "T5_2H_CROSSBOW",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_CROSSBOW",
+        "resultItemId": "T6_2H_CROSSBOW",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_CROSSBOW",
+        "resultItemId": "T7_2H_CROSSBOW",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_CROSSBOW",
+        "resultItemId": "T8_2H_CROSSBOW",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_CROSSBOWLARGE",
+        "resultItemId": "T4_2H_CROSSBOWLARGE",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_CROSSBOWLARGE",
+        "resultItemId": "T5_2H_CROSSBOWLARGE",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_CROSSBOWLARGE",
+        "resultItemId": "T6_2H_CROSSBOWLARGE",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_CROSSBOWLARGE",
+        "resultItemId": "T7_2H_CROSSBOWLARGE",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_CROSSBOWLARGE",
+        "resultItemId": "T8_2H_CROSSBOWLARGE",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_OFF_SHIELD",
+        "resultItemId": "T4_OFF_SHIELD",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 4
+            },
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_OFF_SHIELD",
+        "resultItemId": "T5_OFF_SHIELD",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 4
+            },
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_OFF_SHIELD",
+        "resultItemId": "T6_OFF_SHIELD",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 4
+            },
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_OFF_SHIELD",
+        "resultItemId": "T7_OFF_SHIELD",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 4
+            },
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_OFF_SHIELD",
+        "resultItemId": "T8_OFF_SHIELD",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 4
+            },
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_HEAD_PLATE",
+        "resultItemId": "T4_HEAD_PLATE",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_HEAD_PLATE",
+        "resultItemId": "T5_HEAD_PLATE",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_HEAD_PLATE",
+        "resultItemId": "T6_HEAD_PLATE",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_HEAD_PLATE",
+        "resultItemId": "T7_HEAD_PLATE",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_HEAD_PLATE",
+        "resultItemId": "T8_HEAD_PLATE",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_ARMOR_PLATE",
+        "resultItemId": "T4_ARMOR_PLATE",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_ARMOR_PLATE",
+        "resultItemId": "T5_ARMOR_PLATE",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_ARMOR_PLATE",
+        "resultItemId": "T6_ARMOR_PLATE",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_ARMOR_PLATE",
+        "resultItemId": "T7_ARMOR_PLATE",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_ARMOR_PLATE",
+        "resultItemId": "T8_ARMOR_PLATE",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_SHOES_PLATE",
+        "resultItemId": "T4_SHOES_PLATE",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_SHOES_PLATE",
+        "resultItemId": "T5_SHOES_PLATE",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_SHOES_PLATE",
+        "resultItemId": "T6_SHOES_PLATE",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_SHOES_PLATE",
+        "resultItemId": "T7_SHOES_PLATE",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_SHOES_PLATE",
+        "resultItemId": "T8_SHOES_PLATE",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_BOW",
+        "resultItemId": "T4_2H_BOW",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_BOW",
+        "resultItemId": "T5_2H_BOW",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_BOW",
+        "resultItemId": "T6_2H_BOW",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_BOW",
+        "resultItemId": "T7_2H_BOW",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_BOW",
+        "resultItemId": "T8_2H_BOW",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_WARBOW",
+        "resultItemId": "T4_2H_WARBOW",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_WARBOW",
+        "resultItemId": "T5_2H_WARBOW",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_WARBOW",
+        "resultItemId": "T6_2H_WARBOW",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_WARBOW",
+        "resultItemId": "T7_2H_WARBOW",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_WARBOW",
+        "resultItemId": "T8_2H_WARBOW",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_LONGBOW",
+        "resultItemId": "T4_2H_LONGBOW",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_LONGBOW",
+        "resultItemId": "T5_2H_LONGBOW",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_LONGBOW",
+        "resultItemId": "T6_2H_LONGBOW",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_LONGBOW",
+        "resultItemId": "T7_2H_LONGBOW",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_LONGBOW",
+        "resultItemId": "T8_2H_LONGBOW",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 32
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_MAIN_SPEAR",
+        "resultItemId": "T4_MAIN_SPEAR",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 12
+            },
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_MAIN_SPEAR",
+        "resultItemId": "T5_MAIN_SPEAR",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 12
+            },
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_MAIN_SPEAR",
+        "resultItemId": "T6_MAIN_SPEAR",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 12
+            },
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_MAIN_SPEAR",
+        "resultItemId": "T7_MAIN_SPEAR",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 12
+            },
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_MAIN_SPEAR",
+        "resultItemId": "T8_MAIN_SPEAR",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 12
+            },
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_SPEAR",
+        "resultItemId": "T4_2H_SPEAR",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_SPEAR",
+        "resultItemId": "T5_2H_SPEAR",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_SPEAR",
+        "resultItemId": "T6_2H_SPEAR",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_SPEAR",
+        "resultItemId": "T7_2H_SPEAR",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_SPEAR",
+        "resultItemId": "T8_2H_SPEAR",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 20
+            },
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 12
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_MAIN_DAGGER",
+        "resultItemId": "T4_MAIN_DAGGER",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_MAIN_DAGGER",
+        "resultItemId": "T5_MAIN_DAGGER",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_MAIN_DAGGER",
+        "resultItemId": "T6_MAIN_DAGGER",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_MAIN_DAGGER",
+        "resultItemId": "T7_MAIN_DAGGER",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_MAIN_DAGGER",
+        "resultItemId": "T8_MAIN_DAGGER",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_DAGGERPAIR",
+        "resultItemId": "T4_2H_DAGGERPAIR",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 16
+            },
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_DAGGERPAIR",
+        "resultItemId": "T5_2H_DAGGERPAIR",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 16
+            },
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_DAGGERPAIR",
+        "resultItemId": "T6_2H_DAGGERPAIR",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 16
+            },
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_DAGGERPAIR",
+        "resultItemId": "T7_2H_DAGGERPAIR",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 16
+            },
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_DAGGERPAIR",
+        "resultItemId": "T8_2H_DAGGERPAIR",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 16
+            },
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_CLAWS",
+        "resultItemId": "T4_2H_CLAWS",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 20
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_CLAWS",
+        "resultItemId": "T5_2H_CLAWS",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 20
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_CLAWS",
+        "resultItemId": "T6_2H_CLAWS",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 20
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_CLAWS",
+        "resultItemId": "T7_2H_CLAWS",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 20
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_CLAWS",
+        "resultItemId": "T8_2H_CLAWS",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 12
+            },
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 20
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_QUARTERSTAFF",
+        "resultItemId": "T4_2H_QUARTERSTAFF",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 12
+            },
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_QUARTERSTAFF",
+        "resultItemId": "T5_2H_QUARTERSTAFF",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 12
+            },
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_QUARTERSTAFF",
+        "resultItemId": "T6_2H_QUARTERSTAFF",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 12
+            },
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_QUARTERSTAFF",
+        "resultItemId": "T7_2H_QUARTERSTAFF",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 12
+            },
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_QUARTERSTAFF",
+        "resultItemId": "T8_2H_QUARTERSTAFF",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 12
+            },
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_NATURESTAFF",
+        "resultItemId": "T4_2H_NATURESTAFF",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_NATURESTAFF",
+        "resultItemId": "T5_2H_NATURESTAFF",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_NATURESTAFF",
+        "resultItemId": "T6_2H_NATURESTAFF",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_NATURESTAFF",
+        "resultItemId": "T7_2H_NATURESTAFF",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_NATURESTAFF",
+        "resultItemId": "T8_2H_NATURESTAFF",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_HEAD_LEATHER",
+        "resultItemId": "T4_HEAD_LEATHER",
+        "materials": [
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_HEAD_LEATHER",
+        "resultItemId": "T5_HEAD_LEATHER",
+        "materials": [
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_HEAD_LEATHER",
+        "resultItemId": "T6_HEAD_LEATHER",
+        "materials": [
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_HEAD_LEATHER",
+        "resultItemId": "T7_HEAD_LEATHER",
+        "materials": [
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_HEAD_LEATHER",
+        "resultItemId": "T8_HEAD_LEATHER",
+        "materials": [
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_ARMOR_LEATHER",
+        "resultItemId": "T4_ARMOR_LEATHER",
+        "materials": [
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_ARMOR_LEATHER",
+        "resultItemId": "T5_ARMOR_LEATHER",
+        "materials": [
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_ARMOR_LEATHER",
+        "resultItemId": "T6_ARMOR_LEATHER",
+        "materials": [
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_ARMOR_LEATHER",
+        "resultItemId": "T7_ARMOR_LEATHER",
+        "materials": [
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_ARMOR_LEATHER",
+        "resultItemId": "T8_ARMOR_LEATHER",
+        "materials": [
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_SHOES_LEATHER",
+        "resultItemId": "T4_SHOES_LEATHER",
+        "materials": [
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_SHOES_LEATHER",
+        "resultItemId": "T5_SHOES_LEATHER",
+        "materials": [
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_SHOES_LEATHER",
+        "resultItemId": "T6_SHOES_LEATHER",
+        "materials": [
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_SHOES_LEATHER",
+        "resultItemId": "T7_SHOES_LEATHER",
+        "materials": [
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_SHOES_LEATHER",
+        "resultItemId": "T8_SHOES_LEATHER",
+        "materials": [
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_OFF_TORCH",
+        "resultItemId": "T4_OFF_TORCH",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 4
+            },
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_OFF_TORCH",
+        "resultItemId": "T5_OFF_TORCH",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 4
+            },
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_OFF_TORCH",
+        "resultItemId": "T6_OFF_TORCH",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 4
+            },
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_OFF_TORCH",
+        "resultItemId": "T7_OFF_TORCH",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 4
+            },
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_OFF_TORCH",
+        "resultItemId": "T8_OFF_TORCH",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 4
+            },
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_FIRESTAFF",
+        "resultItemId": "T4_2H_FIRESTAFF",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_FIRESTAFF",
+        "resultItemId": "T5_2H_FIRESTAFF",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_FIRESTAFF",
+        "resultItemId": "T6_2H_FIRESTAFF",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_FIRESTAFF",
+        "resultItemId": "T7_2H_FIRESTAFF",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_FIRESTAFF",
+        "resultItemId": "T8_2H_FIRESTAFF",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_INFERNOSTAFF",
+        "resultItemId": "T4_2H_INFERNOSTAFF",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_INFERNOSTAFF",
+        "resultItemId": "T5_2H_INFERNOSTAFF",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_INFERNOSTAFF",
+        "resultItemId": "T6_2H_INFERNOSTAFF",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_INFERNOSTAFF",
+        "resultItemId": "T7_2H_INFERNOSTAFF",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_INFERNOSTAFF",
+        "resultItemId": "T8_2H_INFERNOSTAFF",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_HOLYSTAFF",
+        "resultItemId": "T4_2H_HOLYSTAFF",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_HOLYSTAFF",
+        "resultItemId": "T5_2H_HOLYSTAFF",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_HOLYSTAFF",
+        "resultItemId": "T6_2H_HOLYSTAFF",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_HOLYSTAFF",
+        "resultItemId": "T7_2H_HOLYSTAFF",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_HOLYSTAFF",
+        "resultItemId": "T8_2H_HOLYSTAFF",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_DIVINESTAFF",
+        "resultItemId": "T4_2H_DIVINESTAFF",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_DIVINESTAFF",
+        "resultItemId": "T5_2H_DIVINESTAFF",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_DIVINESTAFF",
+        "resultItemId": "T6_2H_DIVINESTAFF",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_DIVINESTAFF",
+        "resultItemId": "T7_2H_DIVINESTAFF",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_DIVINESTAFF",
+        "resultItemId": "T8_2H_DIVINESTAFF",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_ARCANESTAFF",
+        "resultItemId": "T4_2H_ARCANESTAFF",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_ARCANESTAFF",
+        "resultItemId": "T5_2H_ARCANESTAFF",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_ARCANESTAFF",
+        "resultItemId": "T6_2H_ARCANESTAFF",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_ARCANESTAFF",
+        "resultItemId": "T7_2H_ARCANESTAFF",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_ARCANESTAFF",
+        "resultItemId": "T8_2H_ARCANESTAFF",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_FROSTSTAFF",
+        "resultItemId": "T4_2H_FROSTSTAFF",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_FROSTSTAFF",
+        "resultItemId": "T5_2H_FROSTSTAFF",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_FROSTSTAFF",
+        "resultItemId": "T6_2H_FROSTSTAFF",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_FROSTSTAFF",
+        "resultItemId": "T7_2H_FROSTSTAFF",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_FROSTSTAFF",
+        "resultItemId": "T8_2H_FROSTSTAFF",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_2H_CURSEDSTAFF",
+        "resultItemId": "T4_2H_CURSEDSTAFF",
+        "materials": [
+            {
+                "itemId": "T4_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_2H_CURSEDSTAFF",
+        "resultItemId": "T5_2H_CURSEDSTAFF",
+        "materials": [
+            {
+                "itemId": "T5_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_2H_CURSEDSTAFF",
+        "resultItemId": "T6_2H_CURSEDSTAFF",
+        "materials": [
+            {
+                "itemId": "T6_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_2H_CURSEDSTAFF",
+        "resultItemId": "T7_2H_CURSEDSTAFF",
+        "materials": [
+            {
+                "itemId": "T7_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_2H_CURSEDSTAFF",
+        "resultItemId": "T8_2H_CURSEDSTAFF",
+        "materials": [
+            {
+                "itemId": "T8_PLANKS",
+                "amount": 16
+            },
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_HEAD_CLOTH",
+        "resultItemId": "T4_HEAD_CLOTH",
+        "materials": [
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_HEAD_CLOTH",
+        "resultItemId": "T5_HEAD_CLOTH",
+        "materials": [
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_HEAD_CLOTH",
+        "resultItemId": "T6_HEAD_CLOTH",
+        "materials": [
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_HEAD_CLOTH",
+        "resultItemId": "T7_HEAD_CLOTH",
+        "materials": [
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_HEAD_CLOTH",
+        "resultItemId": "T8_HEAD_CLOTH",
+        "materials": [
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_ARMOR_CLOTH",
+        "resultItemId": "T4_ARMOR_CLOTH",
+        "materials": [
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_ARMOR_CLOTH",
+        "resultItemId": "T5_ARMOR_CLOTH",
+        "materials": [
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_ARMOR_CLOTH",
+        "resultItemId": "T6_ARMOR_CLOTH",
+        "materials": [
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_ARMOR_CLOTH",
+        "resultItemId": "T7_ARMOR_CLOTH",
+        "materials": [
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_ARMOR_CLOTH",
+        "resultItemId": "T8_ARMOR_CLOTH",
+        "materials": [
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_SHOES_CLOTH",
+        "resultItemId": "T4_SHOES_CLOTH",
+        "materials": [
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_SHOES_CLOTH",
+        "resultItemId": "T5_SHOES_CLOTH",
+        "materials": [
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_SHOES_CLOTH",
+        "resultItemId": "T6_SHOES_CLOTH",
+        "materials": [
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_SHOES_CLOTH",
+        "resultItemId": "T7_SHOES_CLOTH",
+        "materials": [
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_SHOES_CLOTH",
+        "resultItemId": "T8_SHOES_CLOTH",
+        "materials": [
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_OFF_BOOK",
+        "resultItemId": "T4_OFF_BOOK",
+        "materials": [
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 4
+            },
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_OFF_BOOK",
+        "resultItemId": "T5_OFF_BOOK",
+        "materials": [
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 4
+            },
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_OFF_BOOK",
+        "resultItemId": "T6_OFF_BOOK",
+        "materials": [
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 4
+            },
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_OFF_BOOK",
+        "resultItemId": "T7_OFF_BOOK",
+        "materials": [
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 4
+            },
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_OFF_BOOK",
+        "resultItemId": "T8_OFF_BOOK",
+        "materials": [
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 4
+            },
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_CAPE",
+        "resultItemId": "T4_CAPE",
+        "materials": [
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 4
+            },
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_CAPE",
+        "resultItemId": "T5_CAPE",
+        "materials": [
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 4
+            },
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_CAPE",
+        "resultItemId": "T6_CAPE",
+        "materials": [
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 4
+            },
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_CAPE",
+        "resultItemId": "T7_CAPE",
+        "materials": [
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 4
+            },
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_CAPE",
+        "resultItemId": "T8_CAPE",
+        "materials": [
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 4
+            },
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 4
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_BAG",
+        "resultItemId": "T4_BAG",
+        "materials": [
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 8
+            },
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_BAG",
+        "resultItemId": "T5_BAG",
+        "materials": [
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 8
+            },
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_BAG",
+        "resultItemId": "T6_BAG",
+        "materials": [
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 8
+            },
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_BAG",
+        "resultItemId": "T7_BAG",
+        "materials": [
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 8
+            },
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_BAG",
+        "resultItemId": "T8_BAG",
+        "materials": [
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 8
+            },
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 8
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_ARMOR_CLOTH_SET1",
+        "resultItemId": "T4_ARMOR_CLOTH_SET1",
+        "materials": [
+            {
+                "itemId": "T4_CLOTH",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_ARMOR_CLOTH_SET1",
+        "resultItemId": "T5_ARMOR_CLOTH_SET1",
+        "materials": [
+            {
+                "itemId": "T5_CLOTH",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_ARMOR_CLOTH_SET1",
+        "resultItemId": "T6_ARMOR_CLOTH_SET1",
+        "materials": [
+            {
+                "itemId": "T6_CLOTH",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_ARMOR_CLOTH_SET1",
+        "resultItemId": "T7_ARMOR_CLOTH_SET1",
+        "materials": [
+            {
+                "itemId": "T7_CLOTH",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_ARMOR_CLOTH_SET1",
+        "resultItemId": "T8_ARMOR_CLOTH_SET1",
+        "materials": [
+            {
+                "itemId": "T8_CLOTH",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_ARMOR_LEATHER_SET1",
+        "resultItemId": "T4_ARMOR_LEATHER_SET1",
+        "materials": [
+            {
+                "itemId": "T4_LEATHER",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_ARMOR_LEATHER_SET1",
+        "resultItemId": "T5_ARMOR_LEATHER_SET1",
+        "materials": [
+            {
+                "itemId": "T5_LEATHER",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_ARMOR_LEATHER_SET1",
+        "resultItemId": "T6_ARMOR_LEATHER_SET1",
+        "materials": [
+            {
+                "itemId": "T6_LEATHER",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_ARMOR_LEATHER_SET1",
+        "resultItemId": "T7_ARMOR_LEATHER_SET1",
+        "materials": [
+            {
+                "itemId": "T7_LEATHER",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_ARMOR_LEATHER_SET1",
+        "resultItemId": "T8_ARMOR_LEATHER_SET1",
+        "materials": [
+            {
+                "itemId": "T8_LEATHER",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T4_ARMOR_PLATE_SET1",
+        "resultItemId": "T4_ARMOR_PLATE_SET1",
+        "materials": [
+            {
+                "itemId": "T4_METALBAR",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T5_ARMOR_PLATE_SET1",
+        "resultItemId": "T5_ARMOR_PLATE_SET1",
+        "materials": [
+            {
+                "itemId": "T5_METALBAR",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T6_ARMOR_PLATE_SET1",
+        "resultItemId": "T6_ARMOR_PLATE_SET1",
+        "materials": [
+            {
+                "itemId": "T6_METALBAR",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T7_ARMOR_PLATE_SET1",
+        "resultItemId": "T7_ARMOR_PLATE_SET1",
+        "materials": [
+            {
+                "itemId": "T7_METALBAR",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    },
+    {
+        "id": "RECIPE_T8_ARMOR_PLATE_SET1",
+        "resultItemId": "T8_ARMOR_PLATE_SET1",
+        "materials": [
+            {
+                "itemId": "T8_METALBAR",
+                "amount": 16
+            }
+        ],
+        "batchSize": 1
+    }
+]

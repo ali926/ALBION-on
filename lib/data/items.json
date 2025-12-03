@@ -1,0 +1,1647 @@
+[
+    {
+        "id": "T4_METALBAR",
+        "name": "Adept's Metal Bar",
+        "tier": 4,
+        "type": "Refined Resource",
+        "baseValue": 18
+    },
+    {
+        "id": "T5_METALBAR",
+        "name": "Expert's Metal Bar",
+        "tier": 5,
+        "type": "Refined Resource",
+        "baseValue": 36
+    },
+    {
+        "id": "T6_METALBAR",
+        "name": "Master's Metal Bar",
+        "tier": 6,
+        "type": "Refined Resource",
+        "baseValue": 72
+    },
+    {
+        "id": "T7_METALBAR",
+        "name": "Grandmaster's Metal Bar",
+        "tier": 7,
+        "type": "Refined Resource",
+        "baseValue": 144
+    },
+    {
+        "id": "T8_METALBAR",
+        "name": "Elder's Metal Bar",
+        "tier": 8,
+        "type": "Refined Resource",
+        "baseValue": 288
+    },
+    {
+        "id": "T4_LEATHER",
+        "name": "Adept's Leather",
+        "tier": 4,
+        "type": "Refined Resource",
+        "baseValue": 18
+    },
+    {
+        "id": "T5_LEATHER",
+        "name": "Expert's Leather",
+        "tier": 5,
+        "type": "Refined Resource",
+        "baseValue": 36
+    },
+    {
+        "id": "T6_LEATHER",
+        "name": "Master's Leather",
+        "tier": 6,
+        "type": "Refined Resource",
+        "baseValue": 72
+    },
+    {
+        "id": "T7_LEATHER",
+        "name": "Grandmaster's Leather",
+        "tier": 7,
+        "type": "Refined Resource",
+        "baseValue": 144
+    },
+    {
+        "id": "T8_LEATHER",
+        "name": "Elder's Leather",
+        "tier": 8,
+        "type": "Refined Resource",
+        "baseValue": 288
+    },
+    {
+        "id": "T4_CLOTH",
+        "name": "Adept's Cloth",
+        "tier": 4,
+        "type": "Refined Resource",
+        "baseValue": 18
+    },
+    {
+        "id": "T5_CLOTH",
+        "name": "Expert's Cloth",
+        "tier": 5,
+        "type": "Refined Resource",
+        "baseValue": 36
+    },
+    {
+        "id": "T6_CLOTH",
+        "name": "Master's Cloth",
+        "tier": 6,
+        "type": "Refined Resource",
+        "baseValue": 72
+    },
+    {
+        "id": "T7_CLOTH",
+        "name": "Grandmaster's Cloth",
+        "tier": 7,
+        "type": "Refined Resource",
+        "baseValue": 144
+    },
+    {
+        "id": "T8_CLOTH",
+        "name": "Elder's Cloth",
+        "tier": 8,
+        "type": "Refined Resource",
+        "baseValue": 288
+    },
+    {
+        "id": "T4_PLANKS",
+        "name": "Adept's Planks",
+        "tier": 4,
+        "type": "Refined Resource",
+        "baseValue": 18
+    },
+    {
+        "id": "T5_PLANKS",
+        "name": "Expert's Planks",
+        "tier": 5,
+        "type": "Refined Resource",
+        "baseValue": 36
+    },
+    {
+        "id": "T6_PLANKS",
+        "name": "Master's Planks",
+        "tier": 6,
+        "type": "Refined Resource",
+        "baseValue": 72
+    },
+    {
+        "id": "T7_PLANKS",
+        "name": "Grandmaster's Planks",
+        "tier": 7,
+        "type": "Refined Resource",
+        "baseValue": 144
+    },
+    {
+        "id": "T8_PLANKS",
+        "name": "Elder's Planks",
+        "tier": 8,
+        "type": "Refined Resource",
+        "baseValue": 288
+    },
+    {
+        "id": "T4_STONEBLOCK",
+        "name": "Adept's Stone Block",
+        "tier": 4,
+        "type": "Refined Resource",
+        "baseValue": 18
+    },
+    {
+        "id": "T5_STONEBLOCK",
+        "name": "Expert's Stone Block",
+        "tier": 5,
+        "type": "Refined Resource",
+        "baseValue": 36
+    },
+    {
+        "id": "T6_STONEBLOCK",
+        "name": "Master's Stone Block",
+        "tier": 6,
+        "type": "Refined Resource",
+        "baseValue": 72
+    },
+    {
+        "id": "T7_STONEBLOCK",
+        "name": "Grandmaster's Stone Block",
+        "tier": 7,
+        "type": "Refined Resource",
+        "baseValue": 144
+    },
+    {
+        "id": "T8_STONEBLOCK",
+        "name": "Elder's Stone Block",
+        "tier": 8,
+        "type": "Refined Resource",
+        "baseValue": 288
+    },
+    {
+        "id": "T4_MAIN_SWORD",
+        "name": "Adept's Broadsword",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_MAIN_SWORD",
+        "name": "Expert's Broadsword",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_MAIN_SWORD",
+        "name": "Master's Broadsword",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_MAIN_SWORD",
+        "name": "Grandmaster's Broadsword",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_MAIN_SWORD",
+        "name": "Elder's Broadsword",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_SWORD",
+        "name": "Adept's Claymore",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_SWORD",
+        "name": "Expert's Claymore",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_SWORD",
+        "name": "Master's Claymore",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_SWORD",
+        "name": "Grandmaster's Claymore",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_SWORD",
+        "name": "Elder's Claymore",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_DUALSWORD",
+        "name": "Adept's Dual Swords",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_DUALSWORD",
+        "name": "Expert's Dual Swords",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_DUALSWORD",
+        "name": "Master's Dual Swords",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_DUALSWORD",
+        "name": "Grandmaster's Dual Swords",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_DUALSWORD",
+        "name": "Elder's Dual Swords",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_MAIN_AXE",
+        "name": "Adept's Battleaxe",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_MAIN_AXE",
+        "name": "Expert's Battleaxe",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_MAIN_AXE",
+        "name": "Master's Battleaxe",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_MAIN_AXE",
+        "name": "Grandmaster's Battleaxe",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_MAIN_AXE",
+        "name": "Elder's Battleaxe",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_AXE",
+        "name": "Adept's Greataxe",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_AXE",
+        "name": "Expert's Greataxe",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_AXE",
+        "name": "Master's Greataxe",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_AXE",
+        "name": "Grandmaster's Greataxe",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_AXE",
+        "name": "Elder's Greataxe",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_HALBERD",
+        "name": "Adept's Halberd",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_HALBERD",
+        "name": "Expert's Halberd",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_HALBERD",
+        "name": "Master's Halberd",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_HALBERD",
+        "name": "Grandmaster's Halberd",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_HALBERD",
+        "name": "Elder's Halberd",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_MAIN_MACE",
+        "name": "Adept's Mace",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_MAIN_MACE",
+        "name": "Expert's Mace",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_MAIN_MACE",
+        "name": "Master's Mace",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_MAIN_MACE",
+        "name": "Grandmaster's Mace",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_MAIN_MACE",
+        "name": "Elder's Mace",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_MACE",
+        "name": "Adept's Heavy Mace",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_MACE",
+        "name": "Expert's Heavy Mace",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_MACE",
+        "name": "Master's Heavy Mace",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_MACE",
+        "name": "Grandmaster's Heavy Mace",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_MACE",
+        "name": "Elder's Heavy Mace",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_HAMMER",
+        "name": "Adept's Hammer",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_HAMMER",
+        "name": "Expert's Hammer",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_HAMMER",
+        "name": "Master's Hammer",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_HAMMER",
+        "name": "Grandmaster's Hammer",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_HAMMER",
+        "name": "Elder's Hammer",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_CROSSBOW",
+        "name": "Adept's Crossbow",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_CROSSBOW",
+        "name": "Expert's Crossbow",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_CROSSBOW",
+        "name": "Master's Crossbow",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_CROSSBOW",
+        "name": "Grandmaster's Crossbow",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_CROSSBOW",
+        "name": "Elder's Crossbow",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_CROSSBOWLARGE",
+        "name": "Adept's Heavy Crossbow",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_CROSSBOWLARGE",
+        "name": "Expert's Heavy Crossbow",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_CROSSBOWLARGE",
+        "name": "Master's Heavy Crossbow",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_CROSSBOWLARGE",
+        "name": "Grandmaster's Heavy Crossbow",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_CROSSBOWLARGE",
+        "name": "Elder's Heavy Crossbow",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_OFF_SHIELD",
+        "name": "Adept's Shield",
+        "tier": 4,
+        "type": "Off-Hand",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_OFF_SHIELD",
+        "name": "Expert's Shield",
+        "tier": 5,
+        "type": "Off-Hand",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_OFF_SHIELD",
+        "name": "Master's Shield",
+        "tier": 6,
+        "type": "Off-Hand",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_OFF_SHIELD",
+        "name": "Grandmaster's Shield",
+        "tier": 7,
+        "type": "Off-Hand",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_OFF_SHIELD",
+        "name": "Elder's Shield",
+        "tier": 8,
+        "type": "Off-Hand",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_HEAD_PLATE",
+        "name": "Adept's Soldier Helmet",
+        "tier": 4,
+        "type": "Head Armor",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_HEAD_PLATE",
+        "name": "Expert's Soldier Helmet",
+        "tier": 5,
+        "type": "Head Armor",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_HEAD_PLATE",
+        "name": "Master's Soldier Helmet",
+        "tier": 6,
+        "type": "Head Armor",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_HEAD_PLATE",
+        "name": "Grandmaster's Soldier Helmet",
+        "tier": 7,
+        "type": "Head Armor",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_HEAD_PLATE",
+        "name": "Elder's Soldier Helmet",
+        "tier": 8,
+        "type": "Head Armor",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_ARMOR_PLATE",
+        "name": "Adept's Soldier Armor",
+        "tier": 4,
+        "type": "Chest Armor",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_ARMOR_PLATE",
+        "name": "Expert's Soldier Armor",
+        "tier": 5,
+        "type": "Chest Armor",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_ARMOR_PLATE",
+        "name": "Master's Soldier Armor",
+        "tier": 6,
+        "type": "Chest Armor",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_ARMOR_PLATE",
+        "name": "Grandmaster's Soldier Armor",
+        "tier": 7,
+        "type": "Chest Armor",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_ARMOR_PLATE",
+        "name": "Elder's Soldier Armor",
+        "tier": 8,
+        "type": "Chest Armor",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_SHOES_PLATE",
+        "name": "Adept's Soldier Boots",
+        "tier": 4,
+        "type": "Feet Armor",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_SHOES_PLATE",
+        "name": "Expert's Soldier Boots",
+        "tier": 5,
+        "type": "Feet Armor",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_SHOES_PLATE",
+        "name": "Master's Soldier Boots",
+        "tier": 6,
+        "type": "Feet Armor",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_SHOES_PLATE",
+        "name": "Grandmaster's Soldier Boots",
+        "tier": 7,
+        "type": "Feet Armor",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_SHOES_PLATE",
+        "name": "Elder's Soldier Boots",
+        "tier": 8,
+        "type": "Feet Armor",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_BOW",
+        "name": "Adept's Bow",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_BOW",
+        "name": "Expert's Bow",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_BOW",
+        "name": "Master's Bow",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_BOW",
+        "name": "Grandmaster's Bow",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_BOW",
+        "name": "Elder's Bow",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_WARBOW",
+        "name": "Adept's Warbow",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_WARBOW",
+        "name": "Expert's Warbow",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_WARBOW",
+        "name": "Master's Warbow",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_WARBOW",
+        "name": "Grandmaster's Warbow",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_WARBOW",
+        "name": "Elder's Warbow",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_LONGBOW",
+        "name": "Adept's Longbow",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_LONGBOW",
+        "name": "Expert's Longbow",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_LONGBOW",
+        "name": "Master's Longbow",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_LONGBOW",
+        "name": "Grandmaster's Longbow",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_LONGBOW",
+        "name": "Elder's Longbow",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_MAIN_SPEAR",
+        "name": "Adept's Spear",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_MAIN_SPEAR",
+        "name": "Expert's Spear",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_MAIN_SPEAR",
+        "name": "Master's Spear",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_MAIN_SPEAR",
+        "name": "Grandmaster's Spear",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_MAIN_SPEAR",
+        "name": "Elder's Spear",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_SPEAR",
+        "name": "Adept's Pike",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_SPEAR",
+        "name": "Expert's Pike",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_SPEAR",
+        "name": "Master's Pike",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_SPEAR",
+        "name": "Grandmaster's Pike",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_SPEAR",
+        "name": "Elder's Pike",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_MAIN_DAGGER",
+        "name": "Adept's Dagger",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_MAIN_DAGGER",
+        "name": "Expert's Dagger",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_MAIN_DAGGER",
+        "name": "Master's Dagger",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_MAIN_DAGGER",
+        "name": "Grandmaster's Dagger",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_MAIN_DAGGER",
+        "name": "Elder's Dagger",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_DAGGERPAIR",
+        "name": "Adept's Dagger Pair",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_DAGGERPAIR",
+        "name": "Expert's Dagger Pair",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_DAGGERPAIR",
+        "name": "Master's Dagger Pair",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_DAGGERPAIR",
+        "name": "Grandmaster's Dagger Pair",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_DAGGERPAIR",
+        "name": "Elder's Dagger Pair",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_CLAWS",
+        "name": "Adept's Claws",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_CLAWS",
+        "name": "Expert's Claws",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_CLAWS",
+        "name": "Master's Claws",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_CLAWS",
+        "name": "Grandmaster's Claws",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_CLAWS",
+        "name": "Elder's Claws",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_QUARTERSTAFF",
+        "name": "Adept's Quarterstaff",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_QUARTERSTAFF",
+        "name": "Expert's Quarterstaff",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_QUARTERSTAFF",
+        "name": "Master's Quarterstaff",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_QUARTERSTAFF",
+        "name": "Grandmaster's Quarterstaff",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_QUARTERSTAFF",
+        "name": "Elder's Quarterstaff",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_NATURESTAFF",
+        "name": "Adept's Nature Staff",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_NATURESTAFF",
+        "name": "Expert's Nature Staff",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_NATURESTAFF",
+        "name": "Master's Nature Staff",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_NATURESTAFF",
+        "name": "Grandmaster's Nature Staff",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_NATURESTAFF",
+        "name": "Elder's Nature Staff",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_HEAD_LEATHER",
+        "name": "Adept's Mercenary Hood",
+        "tier": 4,
+        "type": "Head Armor",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_HEAD_LEATHER",
+        "name": "Expert's Mercenary Hood",
+        "tier": 5,
+        "type": "Head Armor",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_HEAD_LEATHER",
+        "name": "Master's Mercenary Hood",
+        "tier": 6,
+        "type": "Head Armor",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_HEAD_LEATHER",
+        "name": "Grandmaster's Mercenary Hood",
+        "tier": 7,
+        "type": "Head Armor",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_HEAD_LEATHER",
+        "name": "Elder's Mercenary Hood",
+        "tier": 8,
+        "type": "Head Armor",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_ARMOR_LEATHER",
+        "name": "Adept's Mercenary Jacket",
+        "tier": 4,
+        "type": "Chest Armor",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_ARMOR_LEATHER",
+        "name": "Expert's Mercenary Jacket",
+        "tier": 5,
+        "type": "Chest Armor",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_ARMOR_LEATHER",
+        "name": "Master's Mercenary Jacket",
+        "tier": 6,
+        "type": "Chest Armor",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_ARMOR_LEATHER",
+        "name": "Grandmaster's Mercenary Jacket",
+        "tier": 7,
+        "type": "Chest Armor",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_ARMOR_LEATHER",
+        "name": "Elder's Mercenary Jacket",
+        "tier": 8,
+        "type": "Chest Armor",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_SHOES_LEATHER",
+        "name": "Adept's Mercenary Shoes",
+        "tier": 4,
+        "type": "Feet Armor",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_SHOES_LEATHER",
+        "name": "Expert's Mercenary Shoes",
+        "tier": 5,
+        "type": "Feet Armor",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_SHOES_LEATHER",
+        "name": "Master's Mercenary Shoes",
+        "tier": 6,
+        "type": "Feet Armor",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_SHOES_LEATHER",
+        "name": "Grandmaster's Mercenary Shoes",
+        "tier": 7,
+        "type": "Feet Armor",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_SHOES_LEATHER",
+        "name": "Elder's Mercenary Shoes",
+        "tier": 8,
+        "type": "Feet Armor",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_OFF_TORCH",
+        "name": "Adept's Torch",
+        "tier": 4,
+        "type": "Off-Hand",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_OFF_TORCH",
+        "name": "Expert's Torch",
+        "tier": 5,
+        "type": "Off-Hand",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_OFF_TORCH",
+        "name": "Master's Torch",
+        "tier": 6,
+        "type": "Off-Hand",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_OFF_TORCH",
+        "name": "Grandmaster's Torch",
+        "tier": 7,
+        "type": "Off-Hand",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_OFF_TORCH",
+        "name": "Elder's Torch",
+        "tier": 8,
+        "type": "Off-Hand",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_FIRESTAFF",
+        "name": "Adept's Fire Staff",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_FIRESTAFF",
+        "name": "Expert's Fire Staff",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_FIRESTAFF",
+        "name": "Master's Fire Staff",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_FIRESTAFF",
+        "name": "Grandmaster's Fire Staff",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_FIRESTAFF",
+        "name": "Elder's Fire Staff",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_INFERNOSTAFF",
+        "name": "Adept's Infernal Staff",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_INFERNOSTAFF",
+        "name": "Expert's Infernal Staff",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_INFERNOSTAFF",
+        "name": "Master's Infernal Staff",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_INFERNOSTAFF",
+        "name": "Grandmaster's Infernal Staff",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_INFERNOSTAFF",
+        "name": "Elder's Infernal Staff",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_HOLYSTAFF",
+        "name": "Adept's Holy Staff",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_HOLYSTAFF",
+        "name": "Expert's Holy Staff",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_HOLYSTAFF",
+        "name": "Master's Holy Staff",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_HOLYSTAFF",
+        "name": "Grandmaster's Holy Staff",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_HOLYSTAFF",
+        "name": "Elder's Holy Staff",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_DIVINESTAFF",
+        "name": "Adept's Divine Staff",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_DIVINESTAFF",
+        "name": "Expert's Divine Staff",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_DIVINESTAFF",
+        "name": "Master's Divine Staff",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_DIVINESTAFF",
+        "name": "Grandmaster's Divine Staff",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_DIVINESTAFF",
+        "name": "Elder's Divine Staff",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_ARCANESTAFF",
+        "name": "Adept's Arcane Staff",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_ARCANESTAFF",
+        "name": "Expert's Arcane Staff",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_ARCANESTAFF",
+        "name": "Master's Arcane Staff",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_ARCANESTAFF",
+        "name": "Grandmaster's Arcane Staff",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_ARCANESTAFF",
+        "name": "Elder's Arcane Staff",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_FROSTSTAFF",
+        "name": "Adept's Frost Staff",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_FROSTSTAFF",
+        "name": "Expert's Frost Staff",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_FROSTSTAFF",
+        "name": "Master's Frost Staff",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_FROSTSTAFF",
+        "name": "Grandmaster's Frost Staff",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_FROSTSTAFF",
+        "name": "Elder's Frost Staff",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_2H_CURSEDSTAFF",
+        "name": "Adept's Cursed Staff",
+        "tier": 4,
+        "type": "Weapon",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_2H_CURSEDSTAFF",
+        "name": "Expert's Cursed Staff",
+        "tier": 5,
+        "type": "Weapon",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_2H_CURSEDSTAFF",
+        "name": "Master's Cursed Staff",
+        "tier": 6,
+        "type": "Weapon",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_2H_CURSEDSTAFF",
+        "name": "Grandmaster's Cursed Staff",
+        "tier": 7,
+        "type": "Weapon",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_2H_CURSEDSTAFF",
+        "name": "Elder's Cursed Staff",
+        "tier": 8,
+        "type": "Weapon",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_HEAD_CLOTH",
+        "name": "Adept's Scholar Cowl",
+        "tier": 4,
+        "type": "Head Armor",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_HEAD_CLOTH",
+        "name": "Expert's Scholar Cowl",
+        "tier": 5,
+        "type": "Head Armor",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_HEAD_CLOTH",
+        "name": "Master's Scholar Cowl",
+        "tier": 6,
+        "type": "Head Armor",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_HEAD_CLOTH",
+        "name": "Grandmaster's Scholar Cowl",
+        "tier": 7,
+        "type": "Head Armor",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_HEAD_CLOTH",
+        "name": "Elder's Scholar Cowl",
+        "tier": 8,
+        "type": "Head Armor",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_ARMOR_CLOTH",
+        "name": "Adept's Scholar Robe",
+        "tier": 4,
+        "type": "Chest Armor",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_ARMOR_CLOTH",
+        "name": "Expert's Scholar Robe",
+        "tier": 5,
+        "type": "Chest Armor",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_ARMOR_CLOTH",
+        "name": "Master's Scholar Robe",
+        "tier": 6,
+        "type": "Chest Armor",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_ARMOR_CLOTH",
+        "name": "Grandmaster's Scholar Robe",
+        "tier": 7,
+        "type": "Chest Armor",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_ARMOR_CLOTH",
+        "name": "Elder's Scholar Robe",
+        "tier": 8,
+        "type": "Chest Armor",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_SHOES_CLOTH",
+        "name": "Adept's Scholar Sandals",
+        "tier": 4,
+        "type": "Feet Armor",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_SHOES_CLOTH",
+        "name": "Expert's Scholar Sandals",
+        "tier": 5,
+        "type": "Feet Armor",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_SHOES_CLOTH",
+        "name": "Master's Scholar Sandals",
+        "tier": 6,
+        "type": "Feet Armor",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_SHOES_CLOTH",
+        "name": "Grandmaster's Scholar Sandals",
+        "tier": 7,
+        "type": "Feet Armor",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_SHOES_CLOTH",
+        "name": "Elder's Scholar Sandals",
+        "tier": 8,
+        "type": "Feet Armor",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_OFF_BOOK",
+        "name": "Adept's Tome of Spells",
+        "tier": 4,
+        "type": "Off-Hand",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_OFF_BOOK",
+        "name": "Expert's Tome of Spells",
+        "tier": 5,
+        "type": "Off-Hand",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_OFF_BOOK",
+        "name": "Master's Tome of Spells",
+        "tier": 6,
+        "type": "Off-Hand",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_OFF_BOOK",
+        "name": "Grandmaster's Tome of Spells",
+        "tier": 7,
+        "type": "Off-Hand",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_OFF_BOOK",
+        "name": "Elder's Tome of Spells",
+        "tier": 8,
+        "type": "Off-Hand",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_CAPE",
+        "name": "Adept's Cape",
+        "tier": 4,
+        "type": "Cape",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_CAPE",
+        "name": "Expert's Cape",
+        "tier": 5,
+        "type": "Cape",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_CAPE",
+        "name": "Master's Cape",
+        "tier": 6,
+        "type": "Cape",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_CAPE",
+        "name": "Grandmaster's Cape",
+        "tier": 7,
+        "type": "Cape",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_CAPE",
+        "name": "Elder's Cape",
+        "tier": 8,
+        "type": "Cape",
+        "baseValue": 1152
+    },
+    {
+        "id": "T4_BAG",
+        "name": "Adept's Bag",
+        "tier": 4,
+        "type": "Bag",
+        "baseValue": 72
+    },
+    {
+        "id": "T5_BAG",
+        "name": "Expert's Bag",
+        "tier": 5,
+        "type": "Bag",
+        "baseValue": 144
+    },
+    {
+        "id": "T6_BAG",
+        "name": "Master's Bag",
+        "tier": 6,
+        "type": "Bag",
+        "baseValue": 288
+    },
+    {
+        "id": "T7_BAG",
+        "name": "Grandmaster's Bag",
+        "tier": 7,
+        "type": "Bag",
+        "baseValue": 576
+    },
+    {
+        "id": "T8_BAG",
+        "name": "Elder's Bag",
+        "tier": 8,
+        "type": "Bag",
+        "baseValue": 1152
+    }
+]
